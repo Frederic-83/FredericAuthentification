@@ -1,3 +1,0 @@
-# lp-adherents
-
-membership registration.
