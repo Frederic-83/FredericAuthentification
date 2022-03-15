@@ -1,6 +1,6 @@
 # FredericAuthenticate
 
-##Initialiser 
+### Initialiser 
 
 Pour commencer, on doit installer un logiciel Heroku Cli, qu’on peut télécharger par le site officiel sous n’importe quel moyen. 
   +Avec Ubuntu : 
@@ -21,7 +21,7 @@ Pour que le deployement peut être possible, on doit aussi assurer qu’on peut 
 Pour mieux incorporer votre future application avec le répertorie, on doit entrer dans le même répertorie. 
 *$ cd FredericAuthenticate *
 
-##Créer l’Application Heroku 
+### Créer l’Application Heroku 
 
 Dès qu’on est dans le répertoire, on peut donc créer notre propre application avec la commande suivant: 
 *$ Heroku create *
@@ -35,19 +35,19 @@ Dès que l’application est créée, on peut le déployer avec le code suivant 
 Lorsque l’application est créer/déployé, on peut e voire si c’est fonctionnel avec le code suivant : 
 *$ heroku ps:scale web=1 *
 
-##(Si le code retourne un message d’erreur, on doit recommencer le code au-dessus) 
+### (Si le code retourne un message d’erreur, on doit recommencer le code au-dessus) 
 
 Comme l’appli est déployé, on peut le voir à n’importe quel moment : 
 *$ Heroku open *
 
-##View Logs : 
+### View Logs : 
 
 Lorsque le site web de l’appli est créer, on peut voir le(s) logs associer avec la commande suivante : 
 *$ heroku logs –tail*
 
 Lorsque cette commande est exécutée, on peut voir tous les logs depuis la création. Pour sortir des logs, on doit simplement entre *ctrl+c.* 
 
-##Créer un ProcFile: 
+### Créer un ProcFile: 
 
 Un Procfile est un fichier texte dans le répertoire racine de votre application, pour déclarer explicitement quelle commande doit être exécutée pour démarrer votre application. Pour le créer, on entre la commande suivante : 
 *web: django-frederic FredericAuthenticate*
@@ -55,7 +55,7 @@ Un Procfile est un fichier texte dans le répertoire racine de votre application
 Le code suivant peut être utiliser dans le cas qu’on utilise un fichier ProcFile.windows 
 *web: python manage.py runserver 0.0.0.0:5000* 
 
-##Installer les dépendances d'applications 
+### Installer les dépendances d'applications 
 
 Pour pouvoir utiliser les dépendances qui sont dans le fichier requirements.text, on devrait avoir accès à u environnement virtuel, ou venv. On peut l’accéder en installant le Virtual environnement sur Heroku Cli: 
 *$ python3 -m venv venv* 
@@ -73,7 +73,7 @@ Dès qu’on est dans un venv, on peut donc avoir le fichier des dépendances d�
 Dès qu’on a le fichier, on peut l’ouvrir est voire les dépendances qu’on peut utiliser. La commande pour l’afficher les dépendances sont : 
 *$ pip list *
 
-##Exécuter l’appli en local 
+### Exécuter l’appli en local 
 
 (On note que l’étape précédant doit être fait avant de démarrer cet étape) 
 
