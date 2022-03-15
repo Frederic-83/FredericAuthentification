@@ -18,7 +18,7 @@ Pour loger sur heroku Cli: entrer la commande suivante, et puis entrer votre nom
 $ Login Heroku
 ```
 
-##Accéder à GitHub 
+### Accéder à GitHub 
 
 Pour que le deployement peut être possible, on doit aussi assurer qu’on peut accéder à GitHub/Lab. On va donc entrer un répertoire Github sur Heroku Cli. On utilise mone répertoire comme exemple :
 ```
