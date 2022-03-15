@@ -3,7 +3,7 @@
 ### Initialiser 
 
 Pour commencer, on doit installer un logiciel Heroku Cli, qu’on peut télécharger par le site officiel sous n’importe quel moyen. 
-  +Avec Ubuntu : 
+  + Avec Ubuntu : 
   ```
   $ sudo snap install heroku –classic
   ```
