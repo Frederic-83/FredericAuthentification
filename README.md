@@ -32,7 +32,8 @@ Ensuite, on modifier leurs mots de passes : Le nageur pourra modifier son mot de
 
 La cible adressée par l’application concerne tous les nageurs inscrits du club, et uniquement eux. 
 
-Le site est développé avec Django, et que la base de données utilisée est PostgreSQL. 
+Le site est développé avec Django, et que la base de données utilisé se trouve sur PostgreSQL
+
 ---
 
 ### Initialiser 
