@@ -6,7 +6,7 @@
 
 ## 1. Présentation d’ensemble du projet 
 
-Définition du besoin : *Le projet se scinde en deux volets* 
+*Définition du besoin* : Le projet se scinde en deux volets
 
 # *1er volet* : 
 Une application gérant les inscriptions des adhérents au club doit être développée. Elle est utilisée par le(s) secrétaire(s) du club. Les objectifs de l’application « Inscription des adhérents au club » sont : 
