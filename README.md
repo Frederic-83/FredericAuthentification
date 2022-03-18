@@ -8,7 +8,8 @@
 
 Définition du besoin : *Le projet se scinde en deux volets* 
 
-# *1er volet* : Une application gérant les inscriptions des adhérents au club doit être développée. Elle est utilisée par le(s) secrétaire(s) du club. Les objectifs de l’application « Inscription des adhérents au club » sont : 
+# *1er volet* : 
+Une application gérant les inscriptions des adhérents au club doit être développée. Elle est utilisée par le(s) secrétaire(s) du club. Les objectifs de l’application « Inscription des adhérents au club » sont : 
 
 Se connecter à l'application 
 
