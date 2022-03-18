@@ -1,5 +1,42 @@
 # FredericAuthenticate
 
+---
+
+# Projet Lyon Palme 
+
+## 1. Présentation d’ensemble du projet 
+
+Définition du besoin : *Le projet se scinde en deux volets* 
+
+# *1er volet* : Une application gérant les inscriptions des adhérents au club doit être développée. Elle est utilisée par le(s) secrétaire(s) du club. Les objectifs de l’application « Inscription des adhérents au club » sont : 
+
+Se connecter à l'application 
+
+Visualiser les adhérents inscrits 
+
+Procéder à l'inscription des nouveaux 
+
+Archiver les anciens adhérents 
+
+La cible adressée par l’application : Le(s) secrétaire(s) du club, et uniquement lui/eux. 
+
+# *2ᵉ volet* : 
+
+Les nageurs connectés au site doivent pouvoir : 
+
+Afficher le trombinoscope des adhérents pour la saison en cours, ainsi que l’annuaire. Pour le trombinoscope, en plus de la photo du nom, du prénom de l’adhérent sont affichés ses statuts (comme : « président », « coach », …). 
+
+Modifier son compte : 
+
+Pour commencer, on modifier les coordonnées complètes : Les données s’affichent sur une carte avec un bouton permettant de l’éditer afin qu’il puisse les modifier. 
+
+Ensuite, on modifier leurs mots de passes : Le nageur pourra modifier son mot de passe, mais celui-ci sera saisi dans deux zones de texte distinctes dans lesquelles il ne sera pas possible de faire un « coller ». 
+
+La cible adressée par l’application concerne tous les nageurs inscrits du club, et uniquement eux. 
+
+Le site est développé avec Django, et que la base de données utilisée est PostgreSQL. 
+---
+
 ### Initialiser 
 
 Pour commencer, on doit installer un logiciel Heroku Cli, qu’on peut télécharger par le site officiel sous n’importe quel moyen. 
